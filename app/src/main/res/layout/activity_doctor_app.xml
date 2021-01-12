@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/doo"
+            app:civ_border_width="2dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#FF000000"
+            android:layout_margin="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Amitabh Khanna "
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MBBS, Diploma in Cardiology
+\nDiabetologist, General Physician
+\n32 Years Experience Overall"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPOINTMENT"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_background"/>
+
+        </LinearLayout>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image1"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/do1"
+            app:civ_border_width="2dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#FF000000"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="     Dr. (Maj.)Sharad Shrivastava"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MBBS
+\nGeneral Physician
+\n28 Years Experience Overall"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPOINTMENT"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_background"/>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image2"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/do2"
+            app:civ_border_width="2dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#FF000000"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Yatin Kukreja"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MD - Physician
+
+\nGeneral Physician
+\n18 Years Experience Overall"
+                android:textSize="18sp"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPOINTMENT"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_background"/>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image3"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/do3"
+            app:civ_border_width="2dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#FF000000"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Shailendra Bhadoriya"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MBBS, Diploma in echocardiography
+
+\nEchocardiologist, General Physician
+\n16 Years Experience Overall  (6 years as specialist)"
+                android:textSize="18sp"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPOINTMENT"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_background"/>
+
+        </LinearLayout>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image4"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/do4"
+            app:civ_border_width="2dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#FF000000"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Gaurav Thukran"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MD - Physician
+
+\nGeneral Physician
+\n7 Years Experience Overall"
+                android:textSize="18sp"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPOINTMENT"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_background"/>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image5"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/do5"
+            app:civ_border_width="2dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#FF000000"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Adit Mathur"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MBBS
+
+\nGeneral Physician
+\n7 Years Experience Overall"
+                android:textSize="18sp"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPOINTMENT"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_background"/>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image6"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/do6"
+            app:civ_border_width="2dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#FF000000"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Saumya Rathi"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MBBS
+
+\nGeneral Physician
+\n9 Years Experience Overall"
+                android:textSize="18sp"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPOINTMENT"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_background"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

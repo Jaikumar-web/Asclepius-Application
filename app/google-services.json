@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "863581374856",
+    "project_id": "asclepius-3d826",
+    "storage_bucket": "asclepius-3d826.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863581374856:android:db529546a34887262e123d",
+        "android_client_info": {
+          "package_name": "com.example.asclepius"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863581374856-ahvnangdvu7n7negq2ff2dc6m0144tpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Wd47uvE1JKbh1kO_qhnGTTW5OsO_B7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863581374856-ahvnangdvu7n7negq2ff2dc6m0144tpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".Skincare">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alignmentMode="alignMargins"
+        android:columnCount="1"
+        android:rowCount="3">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_expandable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/blackheads" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="BLACKHEADS"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/showtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="show more"
+                        android:onClick="showmore"
+                        android:textColorHint="#40e9f5"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/expandable_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:text="What are blackheads?\n
+
+Blackheads are small bumps that appear on your skin due to clogged hair follicles.
+These bumps are called blackheads because the surface looks dark or black. Blackheads are a mild type of acne that usually form on the face,
+but they can also appear on the following body parts:\n
+
+\nback
+\nchest
+\nneck
+\narms
+\nshoulders\n
+\nAcne affects nearly 50 million Americans and is the most common skin disorder in the United States, according to the American Academy of Dermatology.
+
+\n\n\nWhat causes blackheads?
+
+\n\nBlackheads form when a clog or plug develops in the opening of hair follicles in your skin.
+Each follicle contains one hair and a sebaceous gland that produces oil. This oil, called sebum, helps keep your skin soft.
+Dead skin cells and oils collect in the opening to the skin follicle, producing a bump called a comedo.
+If the skin over the bump stays closed, the bump is called a whitehead. When the skin over the bump opens,
+exposure to the air causes it to look black and a blackhead forms.
+
+\n\nSome factors can increase your chances of developing acne and blackheads, including:
+
+\n\nproducing too much body oil
+the buildup of the Propionibacterium acnes bacteria on the skin
+irritation of the hair follicles when dead skins cells don’t shed on a regular basis
+undergoing hormonal changes that cause an increase in oil production during the teen years, during menstruation, or while taking birth control pills
+taking certain drugs, such as corticosteroids, lithium, or androgens
+Some people believe that what you eat or drink can affect acne. Dairy products and foods that increase blood sugar levels, such as carbohydrates, may play a part in triggering acne, but researchers aren’t convinced that there’s a strong connection
+"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_expandable1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/acne" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="ACNE"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/showtext1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="show more"
+                        android:textColorHint="#40e9f5"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/expandable_view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:text="What Causes Acne?
+\n\nYour skin has tiny holes called pores that can become blocked by oil, bacteria, dead skin cells, and dirt. When this occurs, you may develop a pimple or “zit.” If your skin is repeatedly affected by this condition, you may have acne.
+\nAccording to the American Academy of Dermatology, acne is the most common skin condition in the U.S. Although acne isn’t a life-threatening condition, it can be painful, particularly when it’s severe. It can also cause emotional distress.
+\nAcne that appears on your face can affect your self-esteem and, over time, may cause permanent physical scarring.
+There are many effective treatments for acne that reduce both the number of pimples you get and your chance of scarring.
+
+\n\n\nWhat are the symptoms of acne?
+\n\nAcne can be found almost anywhere on your body. It most commonly develops on your face, back, neck, chest, and shoulders.
+If you have acne, you’ll typically notice pimples that are white or black. Both blackheads and whiteheads are known as comedones.
+Blackheads open at the surface of your skin, giving them a black appearance because of oxygen in the air. Whiteheads are closed just under the surface of your skin, giving them a white appearance.
+While whiteheads and blackheads are the most common lesions seen in acne, other types can also occur. Inflammatory lesions are more likely to cause scarring of your skin. \nThese include:\n
+
+\nPapules are small, red, raised bumps caused by inflamed or infected hair follicles.
+\nPustules are small red pimples that have pus at their tips.
+\nNodules are solid, often painful lumps beneath the surface of your skin.
+\nCysts are large lumps found beneath your skin that contain pus and are usually painful.
+\n\n\nWhat causes acne?
+\n\nAcne occurs when the pores of your skin become blocked with oil, dead skin, or bacteria.
+Each pore of your skin is the opening to a follicle. The follicle is made up of a hair and a sebaceous (oil) gland.
+The oil gland releases sebum (oil), which travels up the hair, out of the pore, and onto your skin. The sebum keeps your skin lubricated and soft.
+One or more problems in this lubrication process can cause acne. \nIt can occur when:\n
+
+\ntoo much oil is produced by your follicles
+\ndead skin cells accumulate in your pores
+\nbacteria build up in your pores
+These problems contribute to the development of pimples. A pimple appears when bacteria grows in a clogged pore and the oil is unable to escape.
+"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_expandable2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/coldsores" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="COLD SORES"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/showtext2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="show more"
+                        android:onClick="showmore"
+                        android:textColorHint="#40e9f5"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/expandable_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:text="What are cold sores?
+\nCold sores are red, fluid-filled blisters that form near the mouth or on other areas of the face. In rare cases, cold sores may appear on the fingers, nose, or inside the mouth. They’re usually clumped together in patches. Cold sores may persist for two weeks or longer.
+A common virus called herpes simplex causes cold sores. They can spread from person to person through close contact, such as kissing. The sores are contagious even when they’re not visible.
+\nThere’s no cure for cold sores, and they may return without warning. Certain medications can be used to treat cold sores and prevent them from coming back.
+\n\n\nWhat causes cold sores?
+\n\nCold sores are caused by the herpes simplex virus. There are two types of the herpes simplex virus. The herpes simplex type 1 virus (HSV-1) usually causes cold sores, and the herpes simplex type 2 virus (HSV-2) usually causes genital herpes.
+The actual sores are similar in appearance for both forms of the virus. It’s also possible for HSV-1 to cause sores on the genitals and for HSV-2 to cause sores on the mouth.
+Visible cold sores are contagious, but they may be spread even when they can’t be seen. You can get the herpes simplex virus by coming in contact with infected individuals. This may happen through kissing, sharing cosmetics, or sharing food. Oral sex may spread both cold sores and genital herpes.
+
+\n\nReinfection
+\nOnce you get the herpes simplex virus, it can’t be cured but it can be managed. Once the sores have healed, the virus remains dormant in your body. This means that new sores can appear at any time when the virus reactivates.
+
+\n\nSome people with the virus report more frequent outbreaks when their immune systems are weak, such as during illness or times of stress.
+Stages of a cold sore
+\nA cold sore goes through five stages:
+
+\n\nStage 1: Tingling and itching occurs about 24 hours before blisters erupt.
+\nStage 2: Fluid-filled blisters appear.
+\nStage 3: The blisters burst, ooze, and form painful sores.
+\nStage 4: The sores dry out and scab over causing itching and cracking.
+\nStage 5: The scab falls off and the cold sore heals."
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_expandable3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/hives" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="HIVES"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/showtext3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="show more"
+                        android:onClick="showmore"
+                        android:textColorHint="#40e9f5"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/expandable_view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:text="What are blisters?
+\n\nA blister, which is also called a vesicle by medical professionals, is a raised portion of skin that is filled with fluid. You’re probably familiar with blisters if you’ve ever worn ill-fitting shoes for too long.
+This common cause of blistering produces vesicles when friction between your skin and the shoe results in layers of skin separating and filling with fluid.
+\nBlisters are often annoying, painful, or uncomfortable. But in most cases, they aren’t a symptom of anything serious and will heal without any medical intervention. If you ever have unexplained blistering on your skin, you should see your healthcare provider for a diagnosis.
+\n\nBlisters can be caused by friction, infection, or, in rare cases, a skin condition. Here are 16 possible causes of blisters.
+\n\n\nWhat causes hives?
+\n\nHives are usually caused by an allergic reaction to something that you have encountered or swallowed. When you have an allergic reaction, your body begins to release histamines into your blood. Histamines are chemicals your body produces in an attempt to defend itself against infection and other outside intruders. Unfortunately, in some people, the histamines can cause swelling, itching, and many of the symptoms that are experienced with hives. In terms of allergens, hives can be caused by factors such as pollen, medications, food, animal dander, and insect bites.
+\nHives might also be caused by circumstances besides allergies. It’s not uncommon for people to experience hives as the result of stress, tight clothes, exercise, illnesses, or infections. It’s also possible to develop hives as the result of excessive exposure to hot or cold temperatures or from irritation due to excessive sweating. As there are several potential triggers, many times the actual cause of hives cannot be determined.
+\n\n\nWho is at risk?
+\n\nPeople who are known to have allergies are more likely to get hives. You may also be at risk to develop hives if you are on medication or if you are unknowingly exposed to things you may be allergic to, such as food or pollen. If you are already ill with an infection or a health condition, you may be more vulnerable to developing hives.
+\n\n\nWhat do hives look like?
+\n\nThe most noticeable symptom associated with hives is the welts that appear on the skin. Welts may be red, but can also be the same color as your skin. They can be small and round, ring-shaped, or large and of random shape. Hives are itchy, and they tend to appear in batches on the affected part of the body. They can grow larger, change shape, and spread.
+Hives may disappear or reappear over the course of the outbreak. Individual hives can last anywhere from half an hour to a day. Hives may turn white when pressed. Sometimes the hives may change shape or form together and create a larger, raised area.
+Hives can occur in a variety of places on the body. Call 911 or seek medical attention immediately if you develop a hive outbreak around your throat or on your tongue or have trouble breathing along with hives."
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_expandable4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/actinic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Actinic keratosis"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/showtext4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="show more"
+                        android:onClick="showmore"
+                        android:textColorHint="#40e9f5"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/expandable_view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:text="What is actinic keratosis?
+\n\nAs you get older, you may begin to notice rough, scaly spots appearing on your hands, arms, or face. These spots are called actinic keratoses, but they’re commonly known as sunspots or age spots.
+Actinic keratoses usually develop in areas that’ve been damaged by years of sun exposure. They form when you have actinic keratosis (AK), which is a very common skin condition.
+AK occurs when skin cells called keratinocytes start to grow abnormally, forming scaly, discolored spots. \n\nThe skin patches can be any of these colors:
+
+\nbrown
+\ntan
+\ngray
+\npink
+\n\nThey tend to appear on the parts of the body that get the most sun exposure, including the following:
+\nhands
+\narms
+\nface
+\nscalp
+\nneck
+\n\nActinic keratoses aren’t cancerous themselves. However, they can progress to squamous cell carcinoma (SCC), though the likelihood is low.
+When they’re left untreated, up to 10 percent of actinic keratoses can progress to SCC. SCC is the second most common type of skin cancer. Due to this risk, the spots should be regularly monitored by your doctor or dermatologist. Here are some pictures of SCC and what changes to look out for.
+\n\n\nWhat causes actinic keratosis?
+\n\nAK is primarily caused by long-term exposure to sunlight. You have a higher risk of developing this condition if you:
+\nare over age 60
+\nhave light-colored skin and blue eyes
+\nhave a tendency to sunburn easily
+\nhave a history of sunburns earlier in life
+\nhave been frequently exposed to the sun over your lifetime
+\nhave human papilloma virus (HPV)
+\n\n\nWhat are the symptoms of actinic keratosis?
+\n\nActinic keratoses start out as thick, scaly, crusty skin patches. These patches are usually about the size of a small pencil eraser. There might be itching or burning in the affected area.
+Over time, the lesions can disappear, enlarge, remain the same, or develop into SCC. There’s no way of knowing which lesions may become cancerous. \nHowever, you should have your spots examined by a doctor promptly if you notice any of the following changes:
+\nHardening of the lesion
+\nInflammation
+\nRapid enlargement
+\nBleeding
+\nRedness
+\nUlceration
+\nDon’t panic if there are cancerous changes. SCC is relatively easy to diagnose and treat in its early stages."
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_expandable5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/lupus" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="LUPUS"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/showtext5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:hint="show more"
+                        android:onClick="showmore2"
+                        android:textColorHint="#40e9f5"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/expandable_view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:text="Understanding lupus
+\n\nLupus is an autoimmune disease that affects more than 1.5 million Americans, according to the Lupus Foundation of America. Normally, the immune system protects the body against foreign invaders like viruses and bacteria. In the case of a disease like lupus, the immune system mistakenly attacks the body and damages healthy tissues and organs. Lupus can cause problems with the kidneys, nervous system, blood vessels, and skin.
+\n\nLupus types
+There are different types of lupus, each of which cause different symptoms. \n\nSystemic lupus erythematosus (SLE) is the most common type. It affects many different organs of the body, including the kidneys, lungs, brain, and arteries.
+\n\nCutaneous lupus erythematosus (CLE) affects the skin.
+Neonatal lupus is a rare condition in pregnant women that causes the baby to be born with a rash, liver problems, and sometimes a heart defect.
+\n\n\nGeneral symptoms
+\nPeople who have lupus often develop symptoms similar to that of the flu. They feel extremely tired. They have headaches and a fever, and their joints become swollen or painful. Because similar symptoms can occur with other diseases, such as arthritis, fibromyalgia, and thyroid problems, lupus can be difficult to diagnose. Its vague symptoms are also why lupus is sometimes called “the great imitator.”
+\n\n\nJoint pain and weakness
+\nMore than 90 percent of people with lupus will experience joint pain and weakness, according to the Lupus Foundation of America. Most of that discomfort is caused by the inflammation that lupus triggers. Often people feel pain and stiffness in their joints, which is called lupus arthritis.
+Lupus can also weaken muscles, especially in the pelvis, thighs, shoulders, and upper arms. Additionally, the disease can trigger carpal tunnel syndrome, which leads to pain and numbness in the hands and fingers."
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+</ScrollView>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">asclepius</string>
+    <string name="asclepius">Asclepius</string>
+    <string name="get_started">Get Started</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="weight" />
+    <string name="height" />
+    <string name="calculateBMI" />
+    <string name="very_severely_underweight" />
+    <string name="severely_underweight" />
+    <string name="underweight" />
+    <string name="normal" />
+    <string name="overweight" />
+    <string name="obese_class_i" />
+    <string name="obese_class_ii" />
+    <string name="obese_class_iii" />
+</resources>

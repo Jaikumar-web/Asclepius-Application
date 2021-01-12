@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#211D44"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivSplash"
+        android:layout_width="391dp"
+        android:layout_height="389dp"
+        android:layout_marginRight="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icget1" />
+
+    <TextView
+        android:id="@+id/tvSplash"
+        android:layout_width="241dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/ivSplash"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="@string/asclepius"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvSubSplash"
+        android:layout_width="262dp"
+        android:layout_height="61dp"
+        android:text="key of happiness is not a \nlife of money"
+        android:textColor="#A3A2AD"
+        android:textSize="18sp"
+        android:layout_below="@id/tvSplash"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnget"
+        android:layout_width="274dp"
+        android:layout_height="66dp"
+        android:shadowRadius="8"
+        android:text="@string/get_started"
+        android:background="@drawable/btn_background"
+        android:layout_below="@id/tvSubSplash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+         />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tvSubSplash"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="65dp"
+        android:background="@drawable/loginbtn"
+        android:shadowRadius="8"
+        android:text="Login" />
+
+</RelativeLayout>
